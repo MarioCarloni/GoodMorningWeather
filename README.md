@@ -1,2 +1,2 @@
 # GoodMorningWeather
-### subtext
+### Greets, says time of day, and current weather
