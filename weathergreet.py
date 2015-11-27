@@ -42,7 +42,7 @@ def carddir(x):
 
 
 weathergreet = str('Good ' + daytime() +
-    ' Mr. Gonett. The weather in ' + city[:9] +
+    ' Mr. or Mrs. Whoever. The weather in ' + city[:9] +
     ' is ' + strtemp +
     ' degrees with ' + status +
     'Windspeed ' + carddir(getwdeg) + ' at ' + getwspeed + ' miles per hour, and ' + humid + ' percent humidity.')
