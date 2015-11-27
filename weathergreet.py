@@ -14,9 +14,9 @@ def daytime():
     else:
         return('afternoon')
 
-owm = pyowm.OWM('de9716d51d0a9b8f29d668fdc5bae6ee')
+owm = pyowm.OWM('OWMAPIKEY')
 
-city = 'Attleboro, MA'
+city = 'CITY,STATE'
 observation = owm.weather_at_place(city)
 w = observation.get_weather()
 temp = w.get_temperature('fahrenheit')
